@@ -3,7 +3,12 @@
 const test = require('tape')
 const objValues = require('./index')
 
-const obj = {"a": 1, "b": "two", "c": 3, "d": {"e": 4, "f": 5}}
+test('array should contain all values of object', function(t) {
 
-console.log(obj)
-console.log(objValues(obj))
+  const obj = {"a": 1, "b": "two", "c": 3}
+
+  t.plan(1)
+  // returns true if actual result is in objVals
+  t.deepEqual([1, "two", 3], objValues(obj), "test 1")
+  t.end()
+})

@@ -3,7 +3,7 @@
 module.exports = function(obj) {
 
   const keys = Object.keys(obj)
-  const values = [];
+  const values = []
 
   keys.map((k) => values.push(obj[k]))
 

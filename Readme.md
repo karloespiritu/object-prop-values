@@ -1,4 +1,4 @@
-# object-prop-values
+# object-prop-values [![Build Status](https://travis-ci.org/karloespiritu/object-prop-values.svg?branch=master)](https://travis-ci.org/karloespiritu/object-prop-values)
 
 Get all property values of an object
 
